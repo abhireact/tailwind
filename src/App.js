@@ -15,7 +15,9 @@ function App() {
   }, [])
   return (
     <>
-      <Pages />
+      <Pages/>
+  
+
     </>
   )
 }

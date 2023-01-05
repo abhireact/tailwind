@@ -5,32 +5,17 @@ import { contact } from "../data/dummydata"
 export const Contact = () => {
   return (
     <>
-      <div className='contact'>
-        <div className='container'>
-          <Heading title='Keep In Touch' />
-          <div className='content flexsb'>
-            <div className='right'>
-              <form>
-                <div className='flex'>
-                  <input type='text' placeholder='Name' data-aos='flip-left' />
-                  <input type='email' placeholder='Email' data-aos='flip-right' />
-                </div>
-                <input type='email' placeholder='Subject' data-aos='flip-up' />
-                <textarea name='' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
-                <button data-aos='zoom-in-up'>Submit</button>
-              </form>
-            </div>
-            <div className='left'>
-              {contact.map((item) => (
-                <div className='box' data-aos='zoom-in'>
-                  <i>{item.icon}</i>
-                  <p>{item.text1}</p>
-                  <p>{item.text2}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 divide-x bg-gradient-to-b from-slate-300 to-white py-8 ">
+        <div className="py-7">
+          <h1 className="text-3xl md:text-4xl font-bold text-sky-800 px-20">Ready For a Phenomenal Support Experience?</h1>
+          <p className="px-20 text-sky-800 text-lg">Request a complimentary consultation to learn more about how we can deliver exceptionally personalized enterprise software support at a much lower cost.</p>
         </div>
+        <div className="px-20 pt-20">
+            <button className="w-96 h-16 px-10  text-sky-900 transition-colors duration-150 bg-lime-500 rounded-lg focus:shadow-outline hover:bg-sky-800">
+              REQUEST A CONSULTATION
+            </button>
+        </div>
+       
       </div>
     </>
   )

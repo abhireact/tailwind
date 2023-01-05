@@ -7,23 +7,17 @@ export const Hero = () => {
     <>
       <section className='hero'>
         {home.map((val, i) => (
-          <div className='heroContent'>
-            <h3 className='fontSize' data-aos='fade-right'>
-              {val.text}
-            </h3>
+          <div className='heroContent text-6xl  text-white font-semibold'>
+            HELLO WE ARE MINDCOM GROUP
             <h1>
               <Typewriter
                 options={{
-                  strings: [`${val.name}`, `${val.post}`, `${val.design}`],
+                  strings: [`${val.name}`, `${val.post}`],
                   autoStart: true,
                   loop: true,
                 }}
               />
             </h1>
-            <p data-aos='fade-left'>{val.desc}</p>
-            <button className='primaryBtn' data-aos='fade-up-right'>
-              Download CV
-            </button>
           </div>
         ))}
       </section>

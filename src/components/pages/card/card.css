@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    min-height: 100vh;
+    /* background: blueviolet; */
+    background: linear-gradient(180deg, #031637, #3de9e0);
+    
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index:1;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card:before{
+    content: '';
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(#064fc5,#61bedd);
+    animation: spin 2s linear infinite;
+}
+
+
+
+.card .content2{
+    height: 97%;
+    width: 96%;
+    background: rgb(236, 237, 240);
+    border-radius: 10px;
+    /* color: #242464; */
+    padding: 10px 20px;
+    z-index: 100;
+    text-align: center;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.card .content2 h1{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.card .content2 p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px
+}
+.card:hover .content2 p{
+    margin-top: 20px;
+    text-align: left;
+    /* font-size: 20px; */
+    color: rgb(253, 247, 247);
+}
+.card:hover .content2{
+    background: rgba(0,0,0,0.6);    
+    color: rgb(253, 247, 247);
+}
+
+.card .content2:after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 50%;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.card:hover .content2:after{
+    background: rgba(31, 28, 28, 0.041);
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

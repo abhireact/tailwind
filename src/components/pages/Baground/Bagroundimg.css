@@ -1,0 +1,33 @@
+
+.bgofall {
+    padding-top: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .Hero-content {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  @media (min-width: 650px ) {
+    .Hero {
+      height: 60vh;
+      width: 100%;
+        background-position: center center;
+    }
+  
+    .Hero-content {
+      height: 60vh;
+      width: 100%;
+        align-items: flex-end;
+        justify-content: center;
+    }
+  }                                                

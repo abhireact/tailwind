@@ -1,26 +1,17 @@
 import React from "react"
-import { Heading } from "../common/Heading"
-import { about } from "../data/dummydata"
+// import { about } from "../data/dummydata"
 
 export const About = () => {
   return (
     <>
-      <section className='about'>
+      <section className='about bg-gradient-to-b from-sky-900 to-cyan-600'>
         <div className='container flex'>
-          {about.map((val) => (
-            <>
-              <div className='left' data-aos='fade-down-right'>
-                <img src={val.cover} alt='' />
-              </div>
-              <div className='right' data-aos='fade-down-left'>
-                <Heading title='About Me' />
-                <p>{val.desc}</p>
-                <p>{val.desc1}</p>
-                <button>Download CV</button>
-                <button className='primaryBtn'>Download CV</button>
+            <> 
+              <div>
+          <h1 className="font-bold text-center text-white text-3xl">Mindcom has been the trusted partners for companies in the Automotive and Aviation sector as an Engineering Services/Procurement , IT solution provider for more than 10 PLUS years.</h1>
+                <p className="text-center text-white">Founded in 2007 and headquartered in Bangalore, Mindcom Consulting Services Pvt Ltd is a niche consulting firm specializing in the enterprise resource planning (ERP), market for mid-sized companies across the globe.</p>
               </div>
             </>
-          ))}
         </div>
       </section>
     </>

@@ -2,10 +2,10 @@ import React from "react"
 import { Heading } from "../common/Heading"
 import { blog } from "../data/dummydata"
 
-export const Blog = () => {
+export const Blog2 = () => {
   return (
     <>
-      <section className='blog'>
+      <section className='blog2'>
         <div className='container'>
           <Heading title='Blog' />
           <div className='content grid3'>

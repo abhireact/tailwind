@@ -6,36 +6,33 @@ export const navlink = [
     text: "Home",
   },
   {
-    url: "/about",
-    text: "About",
+    url: "/automobile",
+    text: "INDURSTRIES",
   },
   {
     url: "/services",
-    text: "Services",
+    text: "SERVICES",
   },
   {
     url: "/portfolio",
-    text: "Portfolio",
+    text: "SOLUTION & PRODUCTIONS",
   },
   {
-    url: "/testimonials",
-    text: "Testimonials",
+    url: "/portfolio",
+    text: "ABOUT US",
   },
   {
-    url: "/blog",
-    text: "Blog",
+    url: "/portfolio",
+    text: "CAREERS",
   },
-  {
-    url: "/contact",
-    text: "Contact",
-  },
+ 
 ]
 export const home = [
   {
     text: "HELLO WE ARE MINDCOMGROUP",
-    name: "ENTERPRICE TO THE",
-    post: "POWER OF",
-    design: "DIGITAL",
+    name: "WELCOME TO",
+    post: "POWER OF DIGITAL",
+    // design: "MINDCOM",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
   },
 ]
@@ -159,21 +156,21 @@ export const testimonials = [
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
+    name: "Debendra",
     post: "Front End Developer",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
+    name: "saswat",
     post: "Back End Developer",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
+    name: "prabhakar",
     post: "React Developer",
   },
 ]
