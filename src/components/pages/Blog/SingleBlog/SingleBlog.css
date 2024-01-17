@@ -1,6 +1,6 @@
 .singleBlog {
     height: 420px;
-    width: 320px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .singleBlog--image {
-    height: 50%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
     border-top-left-radius: 5px;
@@ -37,21 +37,21 @@
 }
 
 .singleBlog--body p {
-    font-family: var(--primaryFont);
-    font-weight: 600;
-    font-size: 13px;
+
+    /* font-weight: 600; */
+    /* font-size: 13px; */
     margin-bottom: 0.65rem;
 }
 
 .singleBlog--body h3 {
-    font-family: var(--primaryFont);
+
     margin-bottom: 0.55rem;
     font-size: 19px;
     line-height: 115%;
 }
 
 .singleBlog--body h6 {
-    font-family: 'Noto Sans TC', sans-serif;
+ 
     font-size: 15px;
     line-height: 139%;
     font-weight: 500;

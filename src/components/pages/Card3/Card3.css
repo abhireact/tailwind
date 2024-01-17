@@ -8,6 +8,7 @@
 .card3{
     border-radius: 4px;
     background: #fff;
+    color: gray;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   padding: 14px 80px 18px 36px;
@@ -22,8 +23,8 @@
 .card3:hover{
    transform: scale(1.05);
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-background-color: aqua;
-/* color: #fff; */
+background-color: rgb(8, 51, 84);
+color: #fff;
 }
 
 .card3 h3{

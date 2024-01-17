@@ -29,9 +29,9 @@ export const navlink = [
 ]
 export const home = [
   {
-    text: "HELLO WE ARE MINDCOMGROUP",
-    name: "WELCOME TO",
-    post: "POWER OF DIGITAL",
+    text: "We Are MINDCOMgroup",
+    name: "Enterperise to",
+    post: "Enterperise to The Power of Digital World",
     // design: "MINDCOM",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
   },
@@ -154,25 +154,24 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-1.png",
-    name: "Debendra",
-    post: "Front End Developer",
+    text: "We have found MINDCOM team to be courteous, professional and attentive to our needs throughout the implementation and ongoing management process of our project together. They have been prompt with their responses to any questions.",
+    image: "../images/testimonials/team-4.png",
+    belowtext: "A Leading Automobile OEM"
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-2.png",
-    name: "saswat",
-    post: "Back End Developer",
+    text: "MINDCOM helped us to build the integration layer. We look forward for greater association to accelerate our growth. ",
+    image: "../images/testimonials/team-4.png",
+    belowtext: "A Leading Insurance Company"
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-3.png",
-    name: "prabhakar",
-    post: "React Developer",
+    text: "We express the appreciation for the excellent work of MINDCOM in implementation of our college ERP. The work was crucial in bringing the college ERP live on very tight timeframe.",
+    image: "../images/testimonials/team-4.png",
+    belowtext: "A Post Graduate College"
+    
   },
+
 ]
 export const blog = [
   {

@@ -16,26 +16,39 @@ export const Testimonials = () => {
   return (
     <>
       <section className='testimonials  hero'>
+    
+            
         <div className='container'>
           <Slider {...settings}>
             {testimonials.map((val) => (
               // <div className='box'>
               //   <i data-aos='zoom-out-up'>
-              //     <FormatQuoteIcon />
+              //     <p>Customer Speak</p>
               //   </i>
-              //   <p data-aos='zoom-out-down'>{val.text}</p>
               //   {/* <div className='img' data-aos='zoom-out-right'>
               //     <img src={val.image} alt='' />
-              //   </div> */}
-              //   <h3 data-aos='zoom-out-left'>{val.name}</h3>
-              //   <label data-aos='zoom-out'>{val.post}</label>
-              // </div>
-              <div>
-                 <FormatQuoteIcon />
-                 <p className="text-4xl font-bold text-white
-                  text-center">
-                    {val.text}
+            //   </div> */}
+            //   <p className="text-white" data-aos='zoom-out-down'>{val.text}</p>
+            //   {/* <h3 data-aos='zoom-out-left'>{val.name}</h3> */}
+            //   {/* <label data-aos='zoom-out'>{val.post}</label> */}
+            // </div>
+            <div>
+            <div className="grid md:grid-cols-2">
+                 {/* <FormatQuoteIcon /> */}
+                 <div>
+                <h1 className="text-white text-5xl font-bold text-center p-2">Customer Speak</h1><br />
+                <div className='img' data-aos='zoom-out-right'>
+                    <img src={val.image} alt='' />
+                </div>
+                </div>
+                <div>
+                 <p className="text-lg md:text-3xl  text-white
+                  text-left">
+                    <b className="text-4xl text-yellow-400">"</b>  {val.text} <b className="text-4xl text-yellow-400">"</b> 
                   </p>
+                  <p className="text-right text-white text-lg font-semibold">{val.belowtext}</p>
+                </div>
+                </div>
               </div>
               
             ))}

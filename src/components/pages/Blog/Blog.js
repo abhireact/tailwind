@@ -8,7 +8,10 @@ import './Blog.css';
 // import { blogData } from '../../data/blogData'
 import SingleBlog from './SingleBlog/SingleBlog';
 
-
+import Consultingbox from './consultingbox.jpeg'
+import Itbox from './itbox.jpeg'
+import Engineeringbox from './engineeringbox.jpg'
+import Staffingbox from './staffingbox.jpeg'
 function Blog() {
 
     // const { theme } = useContext(ThemeContext);
@@ -45,37 +48,46 @@ function Blog() {
                 <div className="blog" id="blog" style={{backgroundColor: "rgb(175, 180, 180)"}}>
                     
                     <div className="blog--body">
-                        <div className="blog--bodyContainer">
+                        <div className="blog--bodyContainer p-5">
                             {/* {blogData.slice(0, 3).reverse().map(blog => ( */}
                                 <SingleBlog 
                                     // theme={theme}
-                                    title={"Bedanta"}
-                                    desc={"djxeeeeee eeeee eeeeeeeee eeex se3jh"}
-                                    date={"ydxg egx ediibe hs ae"}
-                                    image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4I5QRbLgzZK48-JaTX3atZrgJLkN8qCg2CA&usqp=CAU"}
+                                    title={"Business Consulting"}
+                                    desc={"Consulting has become a much needed value service offerings due to continuous advancement in technology. We provide the services data primarily consumed by organization for there better future requirement."}
+                                
+                                    image={Consultingbox}
                                     // url={blog.url}
                                     key={1}
                                     id={1}
                                 />
                                 <SingleBlog 
                                     // theme={theme}
-                                    title={"Bedanta"}
-                                    desc={"djxeeeeee eeeee eeeeeeeee eeex se3jh"}
-                                    date={"ydxg egx ediibe hs ae"}
-                                    image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh340NmDPEAK3gUIZbOnimdQ9SWEMC2Q8VNw&usqp=CAU"}
+                                    title={"IT Services"}
+                                    desc={"The digital revolution has made it crucial for businesses to reconstruct and upgrade their infrastructure and operations. We deliver innovations in Information Infrastructure, Availability, Networking, Security and Services. "}
+                                  
+                                    image={Itbox}
                                     // url={blog.url}
                                     key={2}
                                     id={2}
                                 />
                                 <SingleBlog 
                                     // theme={theme}
-                                    title={"Bedanta"}
-                                    desc={"djxeeeeee eeeee eeeeeeeee eeex se3jh"}
-                                    date={"ydxg egx ediibe hs ae"}
-                                    image={"https://imgd.aeplcdn.com/1056x594/n/cw/ec/102709/ntorq-125-right-front-three-quarter.jpeg?isig=0&q=75"}
+                                    title={"Staffing Services"}
+                                    desc={"MINDCOM provides the management of essential operation components, such as policies, processes, equipment, data. Our access to a large database of staffing resources is backed by time-tested HR management system."}
+                                    image={Staffingbox}
                                     // url={blog.url}
                                     key={3}
                                     id={3}
+                                />
+                                <SingleBlog 
+                                    // theme={theme}
+                                    title={"Engineering Services"}
+                                    desc={"MINDCOM is experienced in developing and maintaining products. We have carved out our experiences and provides specialized consulting services to help clients bring products or technology to market."}
+                                    date={"ydxg egx ediibe hs ae"}
+                                    image={Engineeringbox}
+                                    // url={blog.url}
+                                    key={4}
+                                    id={4}
                                 />
                         </div> 
                          
