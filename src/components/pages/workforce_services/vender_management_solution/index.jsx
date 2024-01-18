@@ -33,13 +33,13 @@ export default function index() {
       </div>
       <Grid container>
         <Grid item xs={12} sm={12} className="textgrid">
-          <p className="text-justify px-7 py-0  text-3xl text-blue-800">
+          <p className="text-justify px-7 py-0  text-3xl text-blue-500">
             Client Benefits
           </p>
         </Grid>
         <Grid item xs={12} sm={12} className="textgrid">
           <p className="text-center px-7 py-0 text-lg text-gray-700 ">
-            Magnit's Vendor Management System (VMS) leads the charge with a
+            Mindcom's Vendor Management System (VMS) leads the charge with a
             configurable, compatible and robust cloud-based SaaS solution to
             manage the end-to-end, procure to pay, workflow of the contingent
             workforce.
@@ -47,7 +47,7 @@ export default function index() {
         </Grid>
         <Grid item xs={4} sm={4} className="textgrid">
           <div>
-            <p className="text-center    text-3xl text-blue-800">
+            <p className="text-center    text-3xl text-blue-500">
               100% Program Optimization
             </p>
 
@@ -61,7 +61,7 @@ export default function index() {
         </Grid>
         <Grid item xs={4} sm={4} className="textgrid">
           <div>
-            <p className="text-center   text-3xl text-blue-800">
+            <p className="text-center   text-3xl text-blue-500">
               Up to 9% Annual Cost Savings
             </p>
             <p className="text-center  text-lg text-gray-700 ">
@@ -72,24 +72,23 @@ export default function index() {
             </p>
           </div>
         </Grid>
-        <Grid item container xs={4} sm={4} className="textgrid">
-          <Grid>
-            <p className="text-center  text-3xl text-blue-800">
+        <Grid item xs={4} sm={4} className="textgrid">
+          <div>
+            <p className="text-center   text-3xl text-blue-500">
               90%+ Enhanced Visibility
             </p>
-          </Grid>
-          <Grid>
-            <p className="text-center text-lg text-gray-700 ">
+            <p className="text-center  text-lg text-gray-700 ">
               Gain insights across the complete contingent workforce lifecycle
               from a single source of truth. Access to #1 in the industry, award
-              winning staffing data, visibility, and insights.
+              winning staffing data, visibility, and insights
             </p>
-          </Grid>
+            <br/>
+          </div>
         </Grid>
       </Grid>
       <Grid container p={4}>
         <Grid item xs={10} sm={10} className="textgrid">
-          <p className="text-center font-bold  text-4xl text-blue-800">
+          <p className="text-center font-bold  text-4xl text-blue-500">
             Optimize your Workforce Management Program with the Industry’s
             Leading VMS
           </p>
@@ -98,7 +97,7 @@ export default function index() {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} className="textgrid">
           <div className="px-5">
-            <p className="text-justify   text-3xl text-blue-800">
+            <p className="text-justify   text-3xl text-blue-500">
               User Experience​
             </p>
             <p className="text-justify  text-lg  text-gray-700">
@@ -131,11 +130,11 @@ export default function index() {
         </Grid>
         <Grid item xs={12} sm={6} className="textgrid">
           <div className="px-5">
-            <p className="text-justify   text-3xl text-blue-800">
+            <p className="text-justify   text-3xl text-blue-500">
               Omni-Channel​
             </p>
             <p className="text-justify  text-lg  text-gray-700">
-              Seamlessly access Magnit VMS across devices through our web-based
+              Seamlessly access mindcom VMS across devices through our web-based
               experience or native mobile app.​​
             </p>
             <ul className="px-5 list-disc marker:text-red-500">
@@ -148,7 +147,7 @@ export default function index() {
         </Grid>
         <Grid item xs={12} sm={6} className="textgrid">
           <div className="px-5">
-            <p className="text-justify   text-3xl text-blue-800">
+            <p className="text-justify   text-3xl text-blue-500">
               Security & Compliance​
             </p>
             <p className="text-justify  text-lg  text-gray-700">
@@ -186,11 +185,11 @@ export default function index() {
         </Grid>
         <Grid item xs={12} sm={6} className="textgrid">
           <div className="px-5">
-            <p className="text-justify   text-3xl text-blue-800">
+            <p className="text-justify   text-3xl text-blue-500">
               Integrations
             </p>
             <p className="text-justify  text-lg  text-gray-700">
-              Robust, flexible integrations platform with best-in-class Magnit
+              Robust, flexible integrations platform with best-in-class mindcom
               IO.​​​
             </p>
             <ul className="px-5 list-disc marker:text-red-500">
@@ -199,7 +198,7 @@ export default function index() {
                 1800+ integrations and counting ​​
               </li>
               <li className=" text-gray-700">
-                Magnit’s VMS seamlessly connects as an extension of your
+                mindcom’s VMS seamlessly connects as an extension of your
                 business​​
               </li>
               <li className=" text-gray-700">
@@ -211,7 +210,7 @@ export default function index() {
         </Grid>
         <Grid item xs={12} sm={6} className="textgrid">
           <div className="px-5">
-            <p className="text-justify   text-3xl text-blue-800">
+            <p className="text-justify   text-3xl text-blue-500">
               Analytics & Dashboards​​
             </p>
             <p className="text-justify  text-lg  text-gray-700">
@@ -249,7 +248,7 @@ export default function index() {
         </Grid>
         <Grid item xs={12} sm={6} className="textgrid">
           <div className="px-5">
-            <p className="text-justify   text-3xl text-blue-800">
+            <p className="text-justify   text-3xl text-blue-500">
               Implementation & Support​
             </p>
             <p className="text-justify  text-lg  text-gray-700">

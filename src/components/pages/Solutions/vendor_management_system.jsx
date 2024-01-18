@@ -159,6 +159,7 @@ export default function VenderManagement() {
       <div className="py-5">
         <div className="container4">
           <div className="box">
+            
             <div className="content4">
               <h2>100% Program Optimization</h2>
               <p>
@@ -167,10 +168,11 @@ export default function VenderManagement() {
                 boarding, efficiencies, reduction in time to fill, and extensive
                 integrations capabilities.​​
               </p>
+           
             </div>
           </div>
           <div className="box">
-            <div className="content4">
+          <div className="content4">
               <h2>Up to 9% Annual Cost Savings</h2>
               <p>
                 Drive savings with cutting-edge, AI-driven features. Manage bill
@@ -178,18 +180,18 @@ export default function VenderManagement() {
                 set. ​​Optimize sourcing channels, rate savings, access to data,
                 OT/DT, and reduction in tail spend.
               </p>
+           
             </div>
           </div>
           <div className="box">
             <div className="content4">
-              <h2>Up to 9% Annual Cost Savings</h2>
+              <h2>90%+ Enhanced Visibility</h2>
               <p>
-                Drive savings with cutting-edge, AI-driven features. Manage bill
-                rates and benchmarks with the largest contingent workforce data
-                set. ​​Optimize sourcing channels, rate savings, access to data,
-                OT/DT, and reduction in tail spend.
+                Gain insights across the complete contingent workforce lifecycle
+                from a single source of truth. Access to #1 in the industry,
+                award winning staffing data, visibility, and insights.
               </p>
-            </div>
+             </div>
           </div>
         </div>
       </div>

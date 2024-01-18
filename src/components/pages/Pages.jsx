@@ -55,6 +55,13 @@ import EmployeOfRecord from "./lastServices/employe_of_record";
 import StrategicAdvisory from "./lastServices/strategic_advisory";
 import DiversityEquityInclusion from "./lastServices/diversity_equity_inclusion";
 import VenderManagementSystem from "./workforce_services/vender_management_solution";
+import ServicesProcurement from "./workforce_services/services_procurement";
+import TotalTalentIntelligence from "./workforce_services/total_talent_intelligence";
+import DirectSource from "./workforce_services/direct_sourcing";
+import ManagedServiceProvider from "./workforce_services/manage_service_provider";
+import EmployerRecord from "./workforce_services/employer_of_record";
+import Strategicadvisory from "./workforce_services/strategic_advisory";
+import DiversityEquity from "./workforce_services/diversity_equity_inclusion";
 export const Pages = () => {
   return (
     <>
@@ -138,11 +145,37 @@ export const Pages = () => {
             component={DiversityEquityInclusion}
           />
         </Switch>
+
         <Route
           exact
           path="/vender_management_system"
           component={VenderManagementSystem}
         />
+        <Route
+          exact
+          path="/total_talent_intelligence"
+          component={TotalTalentIntelligence}
+        />
+        <Route
+          exact
+          path="/services_procurement"
+          component={ServicesProcurement}
+        />
+        <Route exact path="/direct_sourcing" component={DirectSource} />
+
+        <Route
+          exact
+          path="/service_provider"
+          component={ManagedServiceProvider}
+        />
+        <Route
+          exact
+          path="/manage_strategic_advisory"
+          component={Strategicadvisory}
+        />
+
+        <Route exact path="/employer_record" component={EmployerRecord} />
+        <Route exact path="/diversity_equity" component={DiversityEquity} />
 
         <Contact />
         <Footer />
